@@ -1,0 +1,16 @@
+services:
+  limboadduser:
+    container_name: "limboadduser"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mailhog
+
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - "2025:1025"
+      - "9025:8025"

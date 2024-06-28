@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.limboadduser.service.UserServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-06-28T06:28:46" hostname="ENCAPJMNLLT0754" time="0.586">
+  <properties/>
+  <testcase name="testUpdateUser()" classname="com.example.limboadduser.service.UserServiceTest" time="0.32"/>
+  <testcase name="testRegisterUser()" classname="com.example.limboadduser.service.UserServiceTest" time="0.249"/>
+  <testcase name="testSoftDeleteUser()" classname="com.example.limboadduser.service.UserServiceTest" time="0.006"/>
+  <testcase name="testSoftMultipleDeleteUsers()" classname="com.example.limboadduser.service.UserServiceTest" time="0.004"/>
+  <testcase name="testGetUserById()" classname="com.example.limboadduser.service.UserServiceTest" time="0.003"/>
+  <system-out><![CDATA[14:28:46.844 [Test worker] INFO com.example.limboadduser.service.UserService -- Email sent ...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
